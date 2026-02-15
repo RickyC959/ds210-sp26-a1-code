@@ -10,7 +10,6 @@ impl Strategy for Part1 {
         for i in min..max{
             if player.ask_if_equal(i){
                 return i;
-                continue;
             }
         }
         return 0;
